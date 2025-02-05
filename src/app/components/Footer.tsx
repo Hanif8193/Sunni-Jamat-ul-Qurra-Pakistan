@@ -2,7 +2,6 @@ import React from 'react'
 
 import Image from 'next/image';
 import FB from '../../../public/fb.png'
-import LI from '../../../public/li.gif'
 import WA from '../../../public/wa.gif'
 import Link from 'next/link';
 import Lo from '../../../public/Lo.png'
@@ -23,9 +22,8 @@ function Footer() {
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       
       <div className='flex gap-3'>
-      <Link target='blank' href={"https://www.facebook.com/qari.inayatullah.sialvi"}>  <Image src={FB}alt='FB'width={20}height={20} /></Link>
-      <Link target='blank' href={"https://www.linkedin.com/in/hanif-memon-821b602b4/"}>  <Image src={LI}alt='li'width={20}height={20} /></Link>
-      <Link target='blank' href={"https://chat.whatsapp.com/IseQreOV0ytH8KM3E3MwIB"}>  <Image src={WA}alt='wa'width={20}height={20} /></Link>
+      <Link target='blank' href={"https://www.facebook.com/qari.inayatullah.sialvi"}>  <Image src={FB}alt='FB'width={40}height={40} /></Link>
+      <Link target='blank' href={"https://chat.whatsapp.com/IseQreOV0ytH8KM3E3MwIB"}>  <Image src={WA}alt='wa'width={40}height={40} /></Link>
       </div>
       
     </span>
