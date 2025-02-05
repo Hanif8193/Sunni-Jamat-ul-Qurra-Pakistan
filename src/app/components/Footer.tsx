@@ -16,7 +16,7 @@ function Footer() {
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       
       <Image src={Lo}alt='Logo'width={80}height={80}></Image>
-       <span className="ml-3 text-xl font-bold"> قـــاری عــنــایــت ســیــالــوی </span>
+       <span className="ml-3 text-xl font-bold"> قاری عنایت اللہ سیالوی</span>
     </a>
     
     
@@ -25,7 +25,7 @@ function Footer() {
       <div className='flex gap-3'>
       <Link target='blank' href={"https://www.facebook.com/qari.inayatullah.sialvi"}>  <Image src={FB}alt='FB'width={20}height={20} /></Link>
       <Link target='blank' href={"https://www.linkedin.com/in/hanif-memon-821b602b4/"}>  <Image src={LI}alt='li'width={20}height={20} /></Link>
-      <Link target='blank' href={"https://web.whatsapp.com/"}>  <Image src={WA}alt='wa'width={20}height={20} /></Link>
+      <Link target='blank' href={"https://chat.whatsapp.com/IseQreOV0ytH8KM3E3MwIB"}>  <Image src={WA}alt='wa'width={20}height={20} /></Link>
       </div>
       
     </span>

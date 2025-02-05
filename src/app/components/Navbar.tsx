@@ -14,7 +14,7 @@ function Navbar() {
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
     
     <Image src={Lo}alt='Logo'width={80}height={80} ></Image>
-      <span className="ml-3 text-xl font-bold">قـــاری عــنــایــت ســیــالــوی</span>
+      <span className="ml-3 text-xl font-bold">قاری عنایت اللہ سیالوی</span>
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center gap-10">
       <Link href={"/"} className='text-2xl font-bold' >ہـــوم</Link>
