@@ -29,7 +29,7 @@ function Contact() {
                 filter: "grayscale(1) contrast(1.2) opacity(0.4)",
                 border: 0,
               }}
-              allowFullScreen=""
+              allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
