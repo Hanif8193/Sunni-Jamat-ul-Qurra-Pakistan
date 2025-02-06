@@ -5,17 +5,23 @@ import FB from '../../../public/fb.png'
 import WA from '../../../public/wa.gif'
 import Link from 'next/link';
 import Lo from '../../../public/Lo.png'
+import { Noto_Nastaliq_Urdu } from "next/font/google"
 
+const jameelnoori = Noto_Nastaliq_Urdu({
+  weight: "400",
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 function Footer() {
   return (
-    <div className='bg-pink-300'>
+    <div className='bg-[#bbbdf6]'>
       <footer className="text-gray-600 body-font">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       
       <Image src={Lo}alt='Logo'width={80}height={80}></Image>
-       <span className="ml-3 text-xl font-bold"> قاری عنایت اللہ سیالوی</span>
+      <h2 className='text-2xl font-bold ml-5' >  <span  className={jameelnoori.className} >قاری عنایت اللہ سیالوی</span></h2>
     </a>
     
     

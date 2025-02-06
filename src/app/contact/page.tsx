@@ -1,4 +1,11 @@
 import React from "react";
+import { Noto_Nastaliq_Urdu } from "next/font/google"
+
+const jameelnoori = Noto_Nastaliq_Urdu({
+  weight: "400",
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 function Contact() {
   return (
@@ -23,23 +30,23 @@ function Contact() {
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
-                  ADDRESS
+               <p  className={jameelnoori.className} > پتہ</p>
                 </h2>
                 <p className="mt-1">
-                دوسری منزل، گوشۂ اعظم مسجد، پی آئی بی کالونی، کراچی
+               <p  className={jameelnoori.className} > دوسری منزل، غوثِ اعظم مسجد، پی آئی بی کالونی، کراچی</p>
                   
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
-                ای میل
+                <p  className={jameelnoori.className} > ای میل</p>
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
                   sunnijamatulqurrapk@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   
-                فون نمبر
+               <p  className={jameelnoori.className} >فون نمبر</p>
                 </h2>
                 <p className="leading-relaxed">+92 333 2282850</p>
               </div>
@@ -47,15 +54,15 @@ function Contact() {
           </div>
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
-            بہتری کے لیے تجاویز
+          <p  className={jameelnoori.className} >بہتری کے لیے تجاویز</p>
             </h2>
             <p className="leading-relaxed mb-5 text-gray-600">
-            بلا جھجک ہم سے رابطہ کریں
+          <p  className={jameelnoori.className} >بلا جھجک ہم سے رابطہ کریں</p>
              
             </p>
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">
-              نام
+            <p  className={jameelnoori.className} >نام</p>
               </label>
               <input
                 type="text"
@@ -69,7 +76,7 @@ function Contact() {
                 htmlFor="email"
                 className="leading-7 text-sm text-gray-600"
               >
-                ای میل
+              <p  className={jameelnoori.className} >ای میل</p>
               </label>
               <input
                 type="email"
@@ -83,7 +90,7 @@ function Contact() {
                 htmlFor="message"
                 className="leading-7 text-sm text-gray-600"
               >
-                پیغام
+              <p  className={jameelnoori.className} >پیغام</p>
               </label>
               <textarea
                 id="message"
@@ -97,7 +104,7 @@ function Contact() {
             </button>
             <p className="text-xs text-gray-500 mt-3">
               
-            آپ کی رائے کا شکریہ۔
+           <p  className={jameelnoori.className} >آپ کی رائے کا شکریہ۔</p>
             
             </p>
           </div>
