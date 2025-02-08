@@ -25,6 +25,7 @@ function Navbar() {
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center gap-10">
       <Link href={"/"} className='text-2xl font-bold' ><span  className={jameelnoori.className}>ہـــوم</span></Link>
       <Link href={"/about"} className='text-2xl font-bold'  ><span  className={jameelnoori.className}>ہــمارے بــارے مــیں</span></Link>
+      <Link href={"/social"} className='text-2xl font-bold'  ><span  className={jameelnoori.className}>سماجی بہبود</span></Link>
       <Link href={"/contact"} className='text-2xl font-bold'  ><span  className={jameelnoori.className}> ر ابــطہ</span></Link>
     </nav>
     

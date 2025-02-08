@@ -20,7 +20,7 @@ function Middle() {
         <p className="text-2xl font-bold text-center  mb-20 sm:text-4xl"><span  className={jameelnoori.className}>بین الاقوامی قاری</span></p>
         <div  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 px-5 sm:px-10">
       <div>
-       <Link target='block' href={"https://www.youtube.com/shorts/y5nGX7ENVHE"}><Image src={Q1}alt='Rija'width={200}height={200}></Image></Link>
+       <Link target='block' href={"https://www.youtube.com/watch?v=4Jch8NauTNE&list=PLbSNCooIBU92ZiGj5npdOWPNnflXWT1w3"}><Image src={Q1}alt='Rija'width={200}height={200}></Image></Link>
        <p className='text-2xl font-bold mt-2 mb-2'><span className={jameelnoori.className}>قاری رجا ایوب</span></p>
        <p className={jameelnoori.className}>قاری رجا ایوب تنزانیہ سے تعلق رکھتے ہیں۔
 ان کی تلاوت میں عالمی معیار اور دل کو چھو لینے والی خوبصورتی موجود ہے۔
